@@ -1,0 +1,247 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    width: 100%;
+    gap: 50px;
+
+}
+h3,span{
+    margin: 0px;
+}
+.img1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 25px;
+    box-shadow: rgba(27, 27, 31, 0.2) 0px 7px 29px 0px;
+    border-radius: 15px;
+    gap: 10px;
+    
+}
+.top{
+    background-image: url('./bg-curries.jpeg');
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+    
+}
+.promoted{
+    background-color: rgba(27, 26, 26, 0.5);
+    color: white;
+    padding: 3px 5px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 4px;
+}
+.discount{
+    background: blue;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    padding: 3px 10px;
+
+}
+.time{
+    background: white;
+    color: black;
+    padding: 3px 15px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 4px;
+}
+.heading{
+    font-size: 24px;
+    font-weight: 500;
+}
+.north{
+    font-size: 18px;
+    font-weight: 400;
+    color: grey;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    /* padding-right: 13px; */
+    box-sizing: border-box;
+    
+}
+.bottom img{
+    width: 75px;
+    height: 40px;
+}
+.bottom span{
+    font-size: 16px;
+    font-weight: 400;
+    color: grey;
+    /* padding-right: 103px; */
+}
+
+
+/* img 2 */
+.img2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+    width: 50%;
+    height: 350px;
+    border-radius: 10px;
+    background-image: url('./bg-nature.jpeg');
+    background-size: cover;
+    color: white;
+}
+.img2 button{
+    border: none;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* img3 */
+.img3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 90%;
+    gap: 10px;
+    height: 500px;
+    background-image: url('https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png');
+    /* background-size: cover; */
+}
+.zomato{
+    width: 300px;
+}
+.zom-desc{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+.searching{
+   display: flex;
+   align-items: center;
+   padding: 15px 20px;
+   background: white;
+   width: 80%;
+   border-radius: 10px;
+   gap: 10px;
+}
+.down{
+    width: 10px;
+    height: 10px;
+}
+.search img,.loc img{
+    width: 20px;
+    height: 20px;
+}
+.location{
+    width: 20%;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 85%;
+    
+}
+.search input{
+    border: none;
+    outline: none;
+    width: 80%;
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.loc{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.vertical{
+    width: 2px;
+    border-radius: 10px;
+    height: 100%;
+    background: grey;
+}
+/* img 4 */
+.img4{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 30%;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: rgba(27, 27, 31, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+}
+.bg-top{
+    width: 100%;
+    height: 150px;
+    background-image: url('./bg-linkedin.jpeg');
+    background-size: cover
+}
+.profile{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+background: white;
+position: absolute;
+top: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.profile img{
+    width: 92%;
+    height: 92%;
+    /* width: 150px; */
+
+border-radius: 50%;
+}
+.linked-data{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}
+.name{
+    font-size: 30px;
+}
+.role{
+    color: grey;
+    font-size: 16px;
+}
