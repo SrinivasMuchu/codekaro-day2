@@ -142,6 +142,7 @@ h3,span{
 .searching{
    display: flex;
    align-items: center;
+   justify-content: flex-start;
    padding: 15px 20px;
    background: white;
    width: 80%;
@@ -169,6 +170,7 @@ h3,span{
     align-items: center;
     gap: 10px;
     width: 85%;
+    box-sizing: border-box;
     
 }
 .search input{
@@ -244,4 +246,30 @@ border-radius: 50%;
 .role{
     color: grey;
     font-size: 16px;
+}
+
+
+@media screen and (max-width:1000px){
+    .img4,.img1{
+        width: 50%;
+    }
+}
+@media screen and (max-width:850px){
+
+.searching{
+    width: 75%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.search input{
+    width: 100%;
+}
+}
+@media screen and (max-width:600px){
+    .img4,.img1{
+        width: 80%;
+    }
+    .img2{
+        width: 90%;
+    }
 }
